@@ -1,6 +1,18 @@
-# CMEM Plugin Index
+# cmem-plugin-index
 
-This repository contains an up-to-date list of Python packages starting with the prefix `cmem-plugin`, fetched from [PyPI](https://pypi.org). It is updated daily through an automated GitHub Action, which queries the PyPI simple index and gathers details for all plugins starting with `cmem-plugin`.
+Create an up-to-date list of Corporate Memory plugin packages.
+
+This repository contains an up-to-date list of Python packages starting with the prefix `cmem-plugin`, fetched from [PyPI](https://pypi.org).
+It is updated daily through an automated GitHub Action, which queries the PyPI simple index and gathers details for all plugins starting with `cmem-plugin`.
+
+[![workflow](https://github.com/eccenca/cmem-plugin-index/actions/workflows/check.yml/badge.svg)](https://github.com/eccenca/cmem-plugin-index/actions)  
+[![poetry][poetry-shield]][poetry-link] [![ruff][ruff-shield]][ruff-link] [![mypy][mypy-shield]][mypy-link] [![copier][copier-shield]][copier] 
+
+## Development
+
+- Run [task](https://taskfile.dev/) to see all major development tasks.
+- Use [pre-commit](https://pre-commit.com/) to avoid errors before commit.
+- This repository was created with [this copier template](https://github.com/eccenca/cmem-plugin-template).
 
 ## Repository Structure
 
@@ -26,4 +38,12 @@ This repository contains an up-to-date list of Python packages starting with the
 
 You can manually trigger the GitHub Action by going to the **Actions** tab of this repository and selecting the **Update CMEM Plugin List** workflow. From there, you can click the **Run workflow** button.
 
-## Folder Structure
+[poetry-link]: https://python-poetry.org/
+[poetry-shield]: https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json
+[ruff-link]: https://docs.astral.sh/ruff/
+[ruff-shield]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json&label=Code%20Style
+[mypy-link]: https://mypy-lang.org/
+[mypy-shield]: https://www.mypy-lang.org/static/mypy_badge.svg
+[copier]: https://copier.readthedocs.io/
+[copier-shield]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-purple.json
+

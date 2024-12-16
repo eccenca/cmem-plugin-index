@@ -10,20 +10,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Install Task
+        uses: arduino/setup-task@v1
+
+      - name: Set up python
+        id: setup-python
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.11
+          python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
+      - name: Install and configure poetry
+        uses: snok/install-poetry@v1
+        with:
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+          installer-parallel: true
+
+      - name: Install dynamic versioning plugin
+        run: |
+          poetry self add "poetry-dynamic-versioning[plugin]"
 
       - name: Run Python script to query PyPI and update package list
         run: |
-          python src/plugin_info.py  # Run the Python script located in 'src/'
+          poetry run cmem-plugin-index data/plugins_info.json
 
       - name: Commit and push changes
         run: |
