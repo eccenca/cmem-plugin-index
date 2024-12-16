@@ -23,7 +23,7 @@ def fetch_plugin_info(plugin_name):
         return {
             "id": plugin_name,
             "name": info['name'],
-            "description": info['description'] or "No description available",
+            "summary": info['summary'] or "No summary available",  # Added summary field
             "latest_version": info['version']
         }
     except requests.RequestException as e:
@@ -42,4 +42,3 @@ with open("plugins_info.json", "w") as file:
     json.dump(plugin_info_list, file, indent=4)
 
 print(f"Found {len(plugin_info_list)} cmem-plugin packages.")
-
