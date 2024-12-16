@@ -1,8 +1,13 @@
 import requests
 import json
 from bs4 import BeautifulSoup
+import os
 
-# Fetch the simple index page
+# Ensure the 'data' directory exists
+if not os.path.exists('data'):
+    os.makedirs('data')
+
+# Fetch the simple index page from PyPI
 url = "https://pypi.org/simple/"
 response = requests.get(url)
 response.raise_for_status()
@@ -23,7 +28,7 @@ def fetch_plugin_info(plugin_name):
         return {
             "id": plugin_name,
             "name": info['name'],
-            "summary": info['summary'] or "No summary available",  # Added summary field
+            "summary": info['summary'] or "No summary available",  # Use summary or default message
             "latest_version": info['version']
         }
     except requests.RequestException as e:
@@ -37,8 +42,9 @@ for plugin in plugins:
     if plugin_info:
         plugin_info_list.append(plugin_info)
 
-# Save the plugin information to a JSON file
-with open("plugins_info.json", "w") as file:
+# Save the plugin information to a JSON file in the 'data' folder
+output_path = 'data/plugins_info.json'
+with open(output_path, "w") as file:
     json.dump(plugin_info_list, file, indent=4)
 
-print(f"Found {len(plugin_info_list)} cmem-plugin packages.")
+print(f"Found {len(plugin_info_list)} cmem-plugin packages. Data saved to {output_path}.")
