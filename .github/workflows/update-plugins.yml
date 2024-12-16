@@ -47,6 +47,7 @@ jobs:
           JF_URL: ${{ secrets.JF_URL }}
         run: >
           curl
+          --write-out '%{http_code}' --silent --output /dev/null -f
           -u$JF_CREDENTIALS
           -T data/plugins_info.json
           "$JF_URL"
