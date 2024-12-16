@@ -35,6 +35,7 @@ jobs:
 
       - name: Run Python script to query PyPI and update package list
         run: |
+          poetry install
           poetry run cmem-plugin-index data/plugins_info.json
 
       - name: Commit and push changes
