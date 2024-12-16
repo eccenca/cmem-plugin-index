@@ -3,156 +3,182 @@
         "id": "cmem-plugin-auth",
         "name": "cmem-plugin-auth",
         "summary": "Authenticate to services and provide the OAuth2 access token for other tasks.",
-        "latest_version": "2.0.0"
+        "latest_version": "2.0.0",
+        "latest_version_time": "2023-07-13T00:21:29"
     },
     {
         "id": "cmem-plugin-base",
         "name": "cmem-plugin-base",
         "summary": "Base classes for developing eccenca Corporate Memory plugins.",
-        "latest_version": "4.8.0"
+        "latest_version": "4.8.0",
+        "latest_version_time": "2024-09-12T12:44:39"
     },
     {
         "id": "cmem-plugin-csvcombine",
         "name": "cmem-plugin-csvcombine",
         "summary": "Combine CSV files with the same structure to one dataset.",
-        "latest_version": "2.0.0"
+        "latest_version": "2.0.0",
+        "latest_version_time": "2023-07-31T06:29:29"
     },
     {
         "id": "cmem-plugin-currencies",
         "name": "cmem-plugin-currencies",
         "summary": "Convert prices between currencies.",
-        "latest_version": "0.8.2"
+        "latest_version": "0.8.2",
+        "latest_version_time": "2024-07-25T18:14:16"
     },
     {
         "id": "cmem-plugin-databus",
         "name": "cmem-plugin-databus",
         "summary": "Load and publish datasets from a DBpedia databus service.",
-        "latest_version": "1.0.1"
+        "latest_version": "1.0.1",
+        "latest_version_time": "2023-09-19T17:40:43"
     },
     {
         "id": "cmem-plugin-examples",
         "name": "cmem-plugin-examples",
         "summary": "Example plugins for eccenca Corporate Memory.",
-        "latest_version": "0.3.0"
+        "latest_version": "0.3.0",
+        "latest_version_time": "2023-07-10T09:07:00"
     },
     {
         "id": "cmem-plugin-graphql",
         "name": "cmem-plugin-graphql",
         "summary": "Send queries to a GraphQL endpoint and save the results in a JSON dataset.",
-        "latest_version": "4.0.0"
+        "latest_version": "4.0.0",
+        "latest_version_time": "2024-10-02T22:01:32"
     },
     {
         "id": "cmem-plugin-irdi",
         "name": "cmem-plugin-irdi",
         "summary": "Create unique IRDIs",
-        "latest_version": "0.5.0"
+        "latest_version": "0.5.0",
+        "latest_version_time": "2024-01-03T08:57:35"
     },
     {
         "id": "cmem-plugin-kafka",
         "name": "cmem-plugin-kafka",
         "summary": "Send and receive messages from Apache Kafka.",
-        "latest_version": "3.2.0"
+        "latest_version": "3.2.0",
+        "latest_version_time": "2024-06-07T13:15:27"
     },
     {
         "id": "cmem-plugin-kaggle",
         "name": "cmem-plugin-kaggle",
         "summary": "Import dataset resources from Kaggle.",
-        "latest_version": "2.0.1"
+        "latest_version": "2.0.1",
+        "latest_version_time": "2024-11-21T00:16:26"
     },
     {
         "id": "cmem-plugin-loopwf",
         "name": "cmem-plugin-loopwf",
         "summary": "Loop over the output of a task and start a sub-workflow for each entity.",
-        "latest_version": "0.5.1"
+        "latest_version": "0.5.1",
+        "latest_version_time": "2024-05-08T13:50:22"
     },
     {
         "id": "cmem-plugin-mattermost",
         "name": "cmem-plugin-mattermost",
         "summary": "Send messages to Mattermost channels and users.",
-        "latest_version": "2.2.0"
+        "latest_version": "2.2.0",
+        "latest_version_time": "2024-03-24T14:02:00"
     },
     {
         "id": "cmem-plugin-number-conversion",
         "name": "cmem-plugin-number-conversion",
         "summary": "Convert numbers between binary, octal, decimal and hexadecimal representation.",
-        "latest_version": "0.6.0"
+        "latest_version": "0.6.0",
+        "latest_version_time": "2023-07-10T12:09:20"
     },
     {
         "id": "cmem-plugin-parameters",
         "name": "cmem-plugin-parameters",
         "summary": "Set or overwrite parameters of a task.",
-        "latest_version": "2.1.0"
+        "latest_version": "2.1.0",
+        "latest_version_time": "2023-10-28T09:39:04"
     },
     {
         "id": "cmem-plugin-pyshacl",
         "name": "cmem-plugin-pyshacl",
         "summary": "Validate your Knowledge Graphs based on tests generated from SHACL shapes.",
-        "latest_version": "5.1.0"
+        "latest_version": "5.1.0",
+        "latest_version_time": "2024-12-03T14:08:43"
     },
     {
         "id": "cmem-plugin-python",
         "name": "cmem-plugin-python",
         "summary": "Write ad-hoc transformations and workflow tasks with Python.",
-        "latest_version": "1.1.0"
+        "latest_version": "1.1.0",
+        "latest_version_time": "2024-12-05T17:51:11"
     },
     {
         "id": "cmem-plugin-reason",
         "name": "cmem-plugin-reason",
         "summary": "Perform reasoning tasks and validate OWL consistency.",
-        "latest_version": "2.0.0"
+        "latest_version": "2.0.0",
+        "latest_version_time": "2024-11-29T15:36:54"
     },
     {
         "id": "cmem-plugin-salesforce",
         "name": "cmem-plugin-salesforce",
         "summary": "Send or receive data from your organization\u00b4s Salesforce account.",
-        "latest_version": "2.0.0"
+        "latest_version": "2.0.0",
+        "latest_version_time": "2023-08-08T07:52:30"
     },
     {
         "id": "cmem-plugin-semspect",
         "name": "cmem-plugin-semspect",
         "summary": "Update Knowledge Graphs for visualisation in derivo SemSpect RDF.",
-        "latest_version": "0.7.0"
+        "latest_version": "0.7.0",
+        "latest_version_time": "2024-07-31T07:34:13"
     },
     {
         "id": "cmem-plugin-shapes",
         "name": "cmem-plugin-shapes",
         "summary": "Generate SHACL node and property shapes from a data graph",
-        "latest_version": "1.0.0b2"
+        "latest_version": "1.0.0b2",
+        "latest_version_time": "2024-12-04T09:21:10"
     },
     {
         "id": "cmem-plugin-sparql-anything",
         "name": "cmem-plugin-sparql-anything",
         "summary": "Query anything with SPARQL to construct Knowledge Graphs.",
-        "latest_version": "0.5.0"
+        "latest_version": "0.5.0",
+        "latest_version_time": "2024-11-22T07:05:04"
     },
     {
         "id": "cmem-plugin-splitfile",
         "name": "cmem-plugin-splitfile",
         "summary": "Split a text file into parts of the same filesize",
-        "latest_version": "1.0.0"
+        "latest_version": "1.0.0",
+        "latest_version_time": "2024-11-14T17:35:27"
     },
     {
         "id": "cmem-plugin-ulid",
         "name": "cmem-plugin-ulid",
         "summary": "Create Universally Unique Lexicographically Sortable Identifiers (ULID) in transformations.",
-        "latest_version": "1.0.1"
+        "latest_version": "1.0.1",
+        "latest_version_time": "2023-10-19T18:33:40"
     },
     {
         "id": "cmem-plugin-uuid",
         "name": "cmem-plugin-uuid",
         "summary": "Create universally unique identifiers (UUIDs) versions 1, 3, 4, 5, 6, 7 and 8 in transformations.",
-        "latest_version": "1.0.0"
+        "latest_version": "1.0.0",
+        "latest_version_time": "2024-02-12T10:48:51"
     },
     {
         "id": "cmem-plugin-validation",
         "name": "cmem-plugin-validation",
         "summary": "Validate graph and data structures.",
-        "latest_version": "1.1.1"
+        "latest_version": "1.1.1",
+        "latest_version_time": "2024-11-28T10:17:34"
     },
     {
         "id": "cmem-plugin-yaml",
         "name": "cmem-plugin-yaml",
         "summary": "Load and parse YAML documents.",
-        "latest_version": "0.8.0"
+        "latest_version": "0.8.0",
+        "latest_version_time": "2024-07-17T14:29:00"
     }
 ]
