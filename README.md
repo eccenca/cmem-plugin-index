@@ -18,6 +18,7 @@ This repository contains an up-to-date list of Python packages starting with the
    - **Name**: The display name of the package.
    - **Summary**: A brief description of the package (if available).
    - **Latest Version**: The latest version available for the package.
+   - **Latest Version Publish Time**: The timestamp when the latest version was uploaded to PyPI.
 
 3. **Data Output**: The generated `plugins_info.json` file is stored in the `data/` folder and contains the details of all the plugins.
 
