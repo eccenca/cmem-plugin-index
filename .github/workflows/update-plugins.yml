@@ -23,14 +23,14 @@ jobs:
 
       - name: Run Python script to query PyPI and update package list
         run: |
-          python generate_plugin_info.py
+          python src/plugin_info.py  # Run the Python script located in 'src/'
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           if [[ $(git status --porcelain) ]]; then
-            git add plugins_info.json
+            git add data/plugins_info.json  # Stage the JSON file
             git commit -m "Update CMEM plugin information [$(date --utc)]"
             git push
           else
