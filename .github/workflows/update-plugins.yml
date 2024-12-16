@@ -42,14 +42,14 @@ jobs:
           poetry run cmem-plugin-index data/plugins_info.json
 
       - name: Upload to artifactory
-        uses: jfrog/setup-jfrog-cli@v4
         env:
-          # JFrog Platform url
-          JF_URL: ${{ vars.JF_URL }}  # or 'https://acme.jfrog.io'
-          # JFrog Platform access token
-        JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
-      - run: |
-          jf rt ping
+          JF_CREDENTIALS: ${{ secrets.JF_CREDENTIALS }}
+          JF_URL: ${{ secrets.JF_URL }}
+      - run: >
+          curl
+          -u$JF_CREDENTIALS
+          -T data/plugins_info.json
+          "$JF_URL"
 
       - name: Commit and push changes
         run: |
