@@ -1,10 +1,13 @@
 """plugin info"""
 
+from functools import cache
+
 import loguru
 import requests
 from bs4 import BeautifulSoup
 
 
+@cache
 def get_package_names() -> list[str]:
     """Get all pypi.org pacakge names"""
     url = "https://pypi.org/simple/"
@@ -28,10 +31,10 @@ def get_package_names_with_prefix(prefix: str, ignore: list[str]) -> list[str]:
     return plugin_list
 
 
-def get_plugin_details(plugin_name: str) -> dict | None:
+def get_package_details(package_id: str) -> dict | None:
     """Fetch details for a single package from pypi.org"""
     try:
-        url = f"https://pypi.org/pypi/{plugin_name}/json"
+        url = f"https://pypi.org/pypi/{package_id}/json"
         response = requests.get(url, timeout=20)
         response.raise_for_status()
         data = response.json()
@@ -43,7 +46,7 @@ def get_plugin_details(plugin_name: str) -> dict | None:
         upload_time = latest_version_info.get("upload_time", "No upload time available")
 
         return {
-            "id": plugin_name,
+            "id": package_id,
             "name": info["name"],
             "summary": info["summary"] or "No summary available",
             # Use summary or default message
@@ -59,7 +62,7 @@ def fetch_all_details(prefix: str, ignore: list[str]) -> list[dict]:
     """Fetch plugin details"""
     plugin_info_list = []
     for plugin in get_package_names_with_prefix(prefix=prefix, ignore=ignore):
-        plugin_info = get_plugin_details(plugin)
+        plugin_info = get_package_details(plugin)
         if plugin_info:
             plugin_info_list.append(plugin_info)
     return plugin_info_list
