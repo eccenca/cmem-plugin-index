@@ -1,0 +1,55 @@
+name: Update CMEM Plugin List
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  update-plugin-list:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Query PyPI and update package list
+        run: |
+          python - <<EOF
+          import requests
+
+          # Fetch the simple index page
+          url = "https://pypi.org/simple/"
+          response = requests.get(url)
+          response.raise_for_status()
+
+          # Extract packages starting with "cmem-plugin"
+          from bs4 import BeautifulSoup
+          soup = BeautifulSoup(response.text, 'html.parser')
+          plugins = [a.text for a in soup.find_all('a') if a.text.startswith("cmem-plugin")]
+
+          # Save to a file
+          with open("cmem_plugins.txt", "w") as file:
+              file.write("\\n".join(plugins))
+          print(f"Found {len(plugins)} cmem-plugin packages.")
+          EOF
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ $(git status --porcelain) ]]; then
+            git add cmem_plugins.txt
+            git commit -m "Update CMEM plugin list [$(date --utc)]"
+            git push
+          else
+            echo "No changes to commit"
+
