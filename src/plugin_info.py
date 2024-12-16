@@ -16,6 +16,7 @@ response.raise_for_status()
 soup = BeautifulSoup(response.text, 'html.parser')
 plugins = [a.text for a in soup.find_all('a') if a.text.startswith("cmem-plugin")]
 
+
 # Function to fetch plugin details from PyPI
 def fetch_plugin_info(plugin_name):
     """Fetch plugin details from PyPI."""
@@ -25,11 +26,19 @@ def fetch_plugin_info(plugin_name):
         response.raise_for_status()
         data = response.json()
         info = data['info']
+        latest_version = info['version']
+
+        # Fetch the upload time for the latest version
+        latest_version_info = data['releases'][latest_version][0]
+        upload_time = latest_version_info.get('upload_time', "No upload time available")
+
         return {
             "id": plugin_name,
             "name": info['name'],
-            "summary": info['summary'] or "No summary available",  # Use summary or default message
-            "latest_version": info['version']
+            "summary": info['summary'] or "No summary available",
+            # Use summary or default message
+            "latest_version": latest_version,
+            "latest_version_time": upload_time  # Add latest version publish time
         }
     except requests.RequestException as e:
         print(f"Error fetching data for {plugin_name}: {e}")
