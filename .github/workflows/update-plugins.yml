@@ -33,9 +33,12 @@ jobs:
         run: |
           poetry self add "poetry-dynamic-versioning[plugin]"
 
-      - name: Run Python script to query PyPI and update package list
+      - name: Install dependencies
         run: |
           poetry install
+
+      - name: Run cli query pypi.org and update package list
+        run: |
           poetry run cmem-plugin-index data/plugins_info.json
 
       - name: Commit and push changes
