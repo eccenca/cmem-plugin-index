@@ -164,8 +164,8 @@
         "id": "cmem-plugin-validation",
         "name": "cmem-plugin-validation",
         "summary": "Validate graph and data structures.",
-        "latest_version": "1.1.1",
-        "latest_version_time": "2024-11-28T10:17:34"
+        "latest_version": "1.1.2",
+        "latest_version_time": "2024-12-24T20:20:03"
     },
     {
         "id": "cmem-plugin-yaml",
