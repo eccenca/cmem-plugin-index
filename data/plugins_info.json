@@ -63,6 +63,13 @@
         "latest_version_time": "2024-11-21T00:16:26"
     },
     {
+        "id": "cmem-plugin-llm",
+        "name": "cmem-plugin-llm",
+        "summary": "Interact with Large Language Models.",
+        "latest_version": "0.5.0",
+        "latest_version_time": "2025-01-27T07:56:42"
+    },
+    {
         "id": "cmem-plugin-loopwf",
         "name": "cmem-plugin-loopwf",
         "summary": "Loop over the output of a task and start a sub-workflow for each entity.",
