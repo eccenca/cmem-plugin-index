@@ -150,8 +150,8 @@
         "id": "cmem-plugin-splitfile",
         "name": "cmem-plugin-splitfile",
         "summary": "Split a text file into parts of the same filesize",
-        "latest_version": "1.0.0",
-        "latest_version_time": "2024-11-14T17:35:27"
+        "latest_version": "1.0.3",
+        "latest_version_time": "2025-02-11T13:29:13"
     },
     {
         "id": "cmem-plugin-ulid",
