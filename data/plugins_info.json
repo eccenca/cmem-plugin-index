@@ -101,8 +101,8 @@
         "id": "cmem-plugin-pyshacl",
         "name": "cmem-plugin-pyshacl",
         "summary": "Validate your Knowledge Graphs based on tests generated from SHACL shapes.",
-        "latest_version": "5.1.0",
-        "latest_version_time": "2024-12-03T14:08:43"
+        "latest_version": "5.1.1",
+        "latest_version_time": "2025-02-19T14:45:54"
     },
     {
         "id": "cmem-plugin-python",
@@ -136,8 +136,8 @@
         "id": "cmem-plugin-shapes",
         "name": "cmem-plugin-shapes",
         "summary": "Generate SHACL shapes from an instance data graph.",
-        "latest_version": "2.0.0",
-        "latest_version_time": "2025-02-10T10:45:48"
+        "latest_version": "2.0.1",
+        "latest_version_time": "2025-02-19T13:34:16"
     },
     {
         "id": "cmem-plugin-sparql-anything",
