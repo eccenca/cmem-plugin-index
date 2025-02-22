@@ -49,6 +49,13 @@
         "latest_version_time": "2025-02-03T07:23:36"
     },
     {
+        "id": "cmem-plugin-jira",
+        "name": "cmem-plugin-jira",
+        "summary": "Query and extract data from Jira with JQL.",
+        "latest_version": "0.5.1",
+        "latest_version_time": "2025-02-20T21:26:13"
+    },
+    {
         "id": "cmem-plugin-kafka",
         "name": "cmem-plugin-kafka",
         "summary": "Send and receive messages from Apache Kafka.",
@@ -98,11 +105,18 @@
         "latest_version_time": "2023-10-28T09:39:04"
     },
     {
+        "id": "cmem-plugin-pgvector",
+        "name": "cmem-plugin-pgvector",
+        "summary": "Store embedding vectors into a Postgres vector store.",
+        "latest_version": "0.5.0",
+        "latest_version_time": "2025-02-20T15:53:18"
+    },
+    {
         "id": "cmem-plugin-pyshacl",
         "name": "cmem-plugin-pyshacl",
         "summary": "Validate your Knowledge Graphs based on tests generated from SHACL shapes.",
-        "latest_version": "5.1.0",
-        "latest_version_time": "2024-12-03T14:08:43"
+        "latest_version": "5.1.2",
+        "latest_version_time": "2025-02-21T09:40:39"
     },
     {
         "id": "cmem-plugin-python",
