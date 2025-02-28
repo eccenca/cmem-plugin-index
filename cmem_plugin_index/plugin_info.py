@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 @cache
 def get_package_names() -> list[str]:
-    """Get all pypi.org pacakge names"""
+    """Get all pypi.org package names"""
     url = "https://pypi.org/simple/"
     loguru.logger.info("Start fetching plugin names from pypi.org")
     response = requests.get(url, timeout=30)

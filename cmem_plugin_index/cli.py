@@ -8,6 +8,14 @@ import loguru
 
 from cmem_plugin_index.plugin_info import fetch_all_details
 
+IGNORED_PACKAGES = [
+    "cmem-client",  # not a plugin
+    "cmem-plugin-base",  # not a plugin
+    "cmem-plugin-databus",  # no support
+    "cmem-plugin-examples",  # only for testing
+    "cmem-plugin-kaggle",  # no support
+]
+
 
 @click.command()
 @click.argument("OUTPUT_FILE")
@@ -16,7 +24,7 @@ from cmem_plugin_index.plugin_info import fetch_all_details
 )
 @click.option(
     "--ignore",
-    default=["cmem-plugin-base", "cmem-client"],
+    default=IGNORED_PACKAGES,
     show_default=True,
     multiple=True,
     help="Ignore given packages.",

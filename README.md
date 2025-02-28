@@ -16,7 +16,7 @@ It is updated daily through an automated GitHub Action, which queries the PyPI s
 
 ## Repository Structure
 
-- `cmem_plugin_index//`: Contains the Python package, a CLI that queries PyPI and fetches details of plugins.
+- `cmem_plugin_index/`: contains the Python package, a CLI that queries PyPI and fetches details of plugins.
 - `data/`: Stores the generated JSON file (`plugins_info.json`) with details about each `cmem-plugin` package, including the package ID, name, summary, and latest version.
 - `.github/`: Contains GitHub Actions workflow files that automate the daily updates.
 - `README.md`: This file.
@@ -67,7 +67,6 @@ $ poetry run cmem-plugin-index data/plugins_info.json
 Be aware that cmemc itself fetches the information from [download.eccenca.com](https://download.eccenca.com/cmem-plugin-index/cmem-plugin-index.json).
 Uploading the JSON dataset to this host is part of the github action mentioned above.
 
-
 [poetry-link]: https://python-poetry.org/
 [poetry-shield]: https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json
 [ruff-link]: https://docs.astral.sh/ruff/
@@ -76,4 +75,3 @@ Uploading the JSON dataset to this host is part of the github action mentioned a
 [mypy-shield]: https://www.mypy-lang.org/static/mypy_badge.svg
 [copier]: https://copier.readthedocs.io/
 [copier-shield]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-purple.json
-
