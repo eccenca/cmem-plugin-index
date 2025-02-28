@@ -11,9 +11,11 @@ from cmem_plugin_index.plugin_info import fetch_all_details
 IGNORED_PACKAGES = [
     "cmem-client",  # not a plugin
     "cmem-plugin-base",  # not a plugin
-    "cmem-plugin-databus",  # no support
+    "cmem-plugin-databus",  # no support / maintainer
     "cmem-plugin-examples",  # only for testing
-    "cmem-plugin-kaggle",  # no support
+    "cmem-plugin-kaggle",  # no support / maintainer
+    "cmem-plugin-reason",  # java dependency with critical vulnerabilities
+    "cmem-plugin-sparql-anything",  # java dependency with critical vulnerabilities
 ]
 
 
