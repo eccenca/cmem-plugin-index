@@ -21,20 +21,6 @@
         "latest_version_time": "2024-07-25T18:14:16"
     },
     {
-        "id": "cmem-plugin-databus",
-        "name": "cmem-plugin-databus",
-        "summary": "Load and publish datasets from a DBpedia databus service.",
-        "latest_version": "1.0.1",
-        "latest_version_time": "2023-09-19T17:40:43"
-    },
-    {
-        "id": "cmem-plugin-examples",
-        "name": "cmem-plugin-examples",
-        "summary": "Example plugins for eccenca Corporate Memory.",
-        "latest_version": "0.3.0",
-        "latest_version_time": "2023-07-10T09:07:00"
-    },
-    {
         "id": "cmem-plugin-graphql",
         "name": "cmem-plugin-graphql",
         "summary": "Send queries to a GraphQL endpoint and save the results in a JSON dataset.",
@@ -61,13 +47,6 @@
         "summary": "Send and receive messages from Apache Kafka.",
         "latest_version": "3.2.0",
         "latest_version_time": "2024-06-07T13:15:27"
-    },
-    {
-        "id": "cmem-plugin-kaggle",
-        "name": "cmem-plugin-kaggle",
-        "summary": "Import dataset resources from Kaggle.",
-        "latest_version": "2.0.1",
-        "latest_version_time": "2024-11-21T00:16:26"
     },
     {
         "id": "cmem-plugin-llm",
