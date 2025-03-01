@@ -105,13 +105,6 @@
         "latest_version_time": "2024-12-05T17:51:11"
     },
     {
-        "id": "cmem-plugin-reason",
-        "name": "cmem-plugin-reason",
-        "summary": "Perform reasoning tasks and validate OWL consistency.",
-        "latest_version": "2.1.1",
-        "latest_version_time": "2025-02-18T11:41:23"
-    },
-    {
         "id": "cmem-plugin-salesforce",
         "name": "cmem-plugin-salesforce",
         "summary": "Send or receive data from your organization\u00b4s Salesforce account.",
@@ -131,13 +124,6 @@
         "summary": "Generate SHACL shapes from an instance data graph.",
         "latest_version": "2.0.1",
         "latest_version_time": "2025-02-19T13:34:16"
-    },
-    {
-        "id": "cmem-plugin-sparql-anything",
-        "name": "cmem-plugin-sparql-anything",
-        "summary": "Query anything with SPARQL to construct Knowledge Graphs.",
-        "latest_version": "0.5.0",
-        "latest_version_time": "2024-11-22T07:05:04"
     },
     {
         "id": "cmem-plugin-splitfile",
