@@ -91,6 +91,13 @@
         "latest_version_time": "2025-02-20T15:53:18"
     },
     {
+        "id": "cmem-plugin-project-resources",
+        "name": "cmem-plugin-project-resources",
+        "summary": "List project resources.",
+        "latest_version": "0.5.0",
+        "latest_version_time": "2025-03-10T16:02:38"
+    },
+    {
         "id": "cmem-plugin-pyshacl",
         "name": "cmem-plugin-pyshacl",
         "summary": "Validate your Knowledge Graphs based on tests generated from SHACL shapes.",
