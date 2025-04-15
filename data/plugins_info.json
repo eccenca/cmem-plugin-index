@@ -70,6 +70,13 @@
         "latest_version_time": "2024-03-24T14:02:00"
     },
     {
+        "id": "cmem-plugin-nextcloud",
+        "name": "cmem-plugin-nextcloud",
+        "summary": "Extract and process data from your Nextcloud instance.",
+        "latest_version": "0.1.0rc1",
+        "latest_version_time": "2025-04-13T14:56:55"
+    },
+    {
         "id": "cmem-plugin-number-conversion",
         "name": "cmem-plugin-number-conversion",
         "summary": "Convert numbers between binary, octal, decimal and hexadecimal representation.",
