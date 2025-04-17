@@ -16,11 +16,11 @@ def test_get_plugin_details() -> None:
     assert get_package_details(package_id="cmem-plugin-index") is None
     details = get_package_details(package_id="cmem-plugin-python")
     assert details is not None
-    assert details["name"] == "cmem-plugin-python"
-    assert details["id"] == "cmem-plugin-python"
-    assert details["summary"] == "Write ad-hoc transformations and workflow tasks with Python."
-    assert details["latest_version"] >= "1.1.0"
-    assert details["latest_version_time"] >= "2024-12-05T17:51:11"
+    assert details.name == "cmem-plugin-python"
+    assert details.id == "cmem-plugin-python"
+    assert details.summary == "Write ad-hoc transformations and workflow tasks with Python."
+    assert details.latest_version >= "1.1.0"
+    assert details.latest_version_time >= "2024-12-05T17:51:11"
 
 
 def test_fetch_all_details() -> None:

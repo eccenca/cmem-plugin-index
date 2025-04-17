@@ -1,10 +1,22 @@
 """plugin info"""
 
+from dataclasses import asdict, dataclass
 from functools import cache
 
 import loguru
 import requests
 from bs4 import BeautifulSoup
+
+
+@dataclass
+class PackageDetails:
+    """Package details"""
+
+    id: str
+    name: str
+    summary: str
+    latest_version: str
+    latest_version_time: str
 
 
 @cache
@@ -31,7 +43,7 @@ def get_package_names_with_prefix(prefix: str, ignore: list[str]) -> list[str]:
     return plugin_list
 
 
-def get_package_details(package_id: str) -> dict | None:
+def get_package_details(package_id: str) -> PackageDetails | None:
     """Fetch details for a single package from pypi.org"""
     try:
         url = f"https://pypi.org/pypi/{package_id}/json"
@@ -45,14 +57,13 @@ def get_package_details(package_id: str) -> dict | None:
         latest_version_info = data["releases"][latest_version][0]
         upload_time = latest_version_info.get("upload_time", "No upload time available")
 
-        return {
-            "id": package_id,
-            "name": info["name"],
-            "summary": info["summary"] or "No summary available",
-            # Use summary or default message
-            "latest_version": latest_version,
-            "latest_version_time": upload_time,  # Add latest version publish time
-        }
+        return PackageDetails(
+            id=package_id,
+            name=info["name"],
+            summary=info["summary"] or "No summary available",  # Use summary or default message
+            latest_version=latest_version,
+            latest_version_time=upload_time,  # Add latest version publish time
+        )
     except requests.RequestException as e:
         loguru.logger.exception(e)
         return None
@@ -61,8 +72,18 @@ def get_package_details(package_id: str) -> dict | None:
 def fetch_all_details(prefix: str, ignore: list[str]) -> list[dict]:
     """Fetch plugin details"""
     plugin_info_list = []
-    for plugin in get_package_names_with_prefix(prefix=prefix, ignore=ignore):
-        plugin_info = get_package_details(plugin)
-        if plugin_info:
-            plugin_info_list.append(plugin_info)
+    for package in get_package_names_with_prefix(prefix=prefix, ignore=ignore):
+        package_info = get_package_details(package)
+        if not package_info:
+            loguru.logger.warning(f"No package info available for package '{package}'.")
+            continue
+        if "rc" in package_info.latest_version:
+            loguru.logger.warning(
+                f"Package '{package}' ignored since latest version still "
+                f"an release candidate: '{package_info.latest_version}'."
+            )
+            continue
+        plugin_info_list.append(asdict(package_info))
+        loguru.logger.info(f"Package '{package}' in version {package_info.latest_version} added.")
+
     return plugin_info_list
