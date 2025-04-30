@@ -73,8 +73,8 @@
         "id": "cmem-plugin-nextcloud",
         "name": "cmem-plugin-nextcloud",
         "summary": "Extract and process data from your Nextcloud instance.",
-        "latest_version": "1.0.0",
-        "latest_version_time": "2025-04-24T12:44:17"
+        "latest_version": "1.1.0",
+        "latest_version_time": "2025-04-29T13:18:46"
     },
     {
         "id": "cmem-plugin-number-conversion",
