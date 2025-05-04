@@ -100,9 +100,9 @@
     {
         "id": "cmem-plugin-project-resources",
         "name": "cmem-plugin-project-resources",
-        "summary": "List project resources.",
-        "latest_version": "0.6.0",
-        "latest_version_time": "2025-05-02T22:45:09"
+        "summary": "List and upload project resources.",
+        "latest_version": "0.6.1",
+        "latest_version_time": "2025-05-03T11:55:51"
     },
     {
         "id": "cmem-plugin-pyshacl",
