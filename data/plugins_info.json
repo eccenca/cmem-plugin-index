@@ -24,8 +24,8 @@
         "id": "cmem-plugin-graphql",
         "name": "cmem-plugin-graphql",
         "summary": "Send queries to a GraphQL endpoint and save the results in a JSON dataset.",
-        "latest_version": "4.0.0",
-        "latest_version_time": "2024-10-02T22:01:32"
+        "latest_version": "4.0.1",
+        "latest_version_time": "2025-05-06T14:27:21"
     },
     {
         "id": "cmem-plugin-irdi",
@@ -52,8 +52,8 @@
         "id": "cmem-plugin-llm",
         "name": "cmem-plugin-llm",
         "summary": "Interact with Large Language Models (Execute Instructions, Create Embeddings).",
-        "latest_version": "0.8.0",
-        "latest_version_time": "2025-04-24T16:49:43"
+        "latest_version": "0.8.1",
+        "latest_version_time": "2025-05-06T14:22:36"
     },
     {
         "id": "cmem-plugin-loopwf",
@@ -94,8 +94,8 @@
         "id": "cmem-plugin-pgvector",
         "name": "cmem-plugin-pgvector",
         "summary": "Store and search for embedding vectors in a Postgres vector store.",
-        "latest_version": "0.6.0",
-        "latest_version_time": "2025-04-22T14:28:51"
+        "latest_version": "0.6.1",
+        "latest_version_time": "2025-05-06T14:22:52"
     },
     {
         "id": "cmem-plugin-project-resources",
