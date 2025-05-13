@@ -91,6 +91,13 @@
         "latest_version_time": "2023-10-28T09:39:04"
     },
     {
+        "id": "cmem-plugin-pdf-extract",
+        "name": "cmem-plugin-pdf-extract",
+        "summary": "Extract text and tables from PDF documents.",
+        "latest_version": "0.5.0",
+        "latest_version_time": "2025-05-12T07:17:14"
+    },
+    {
         "id": "cmem-plugin-pgvector",
         "name": "cmem-plugin-pgvector",
         "summary": "Store and search for embedding vectors in a Postgres vector store.",
@@ -115,8 +122,8 @@
         "id": "cmem-plugin-python",
         "name": "cmem-plugin-python",
         "summary": "Write ad-hoc transformations and workflow tasks with Python.",
-        "latest_version": "1.1.0",
-        "latest_version_time": "2024-12-05T17:51:11"
+        "latest_version": "1.2.0",
+        "latest_version_time": "2025-05-12T09:12:37"
     },
     {
         "id": "cmem-plugin-salesforce",
