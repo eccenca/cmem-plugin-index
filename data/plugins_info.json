@@ -59,8 +59,8 @@
         "id": "cmem-plugin-loopwf",
         "name": "cmem-plugin-loopwf",
         "summary": "Loop over the output of a task and start a sub-workflow for each entity.",
-        "latest_version": "0.5.1",
-        "latest_version_time": "2024-05-08T13:50:22"
+        "latest_version": "0.5.2",
+        "latest_version_time": "2025-05-14T18:25:07"
     },
     {
         "id": "cmem-plugin-mattermost",
