@@ -17,8 +17,8 @@
         "id": "cmem-plugin-currencies",
         "name": "cmem-plugin-currencies",
         "summary": "Convert prices between currencies.",
-        "latest_version": "0.8.2",
-        "latest_version_time": "2024-07-25T18:14:16"
+        "latest_version": "0.9.0",
+        "latest_version_time": "2025-05-16T15:23:10"
     },
     {
         "id": "cmem-plugin-graphql",
