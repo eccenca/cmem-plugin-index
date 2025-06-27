@@ -41,16 +41,17 @@ jobs:
         run: |
           poetry run cmem-plugin-index data/plugins_info.json
 
-      - name: Upload to artifactory
-        env:
-          JF_CREDENTIALS: ${{ secrets.JF_CREDENTIALS }}
-          JF_URL: ${{ secrets.JF_URL }}
-        run: >
-          curl
-          --write-out '%{http_code}' --silent --output /dev/null -f
-          -u$JF_CREDENTIALS
-          -T data/plugins_info.json
-          "$JF_URL"
+      # UPLOAD deactivated. instead a pull cronjob is in places fetching the file at 1am/day
+      # - name: Upload to artifactory
+      #   env:
+      #     JF_CREDENTIALS: ${{ secrets.JF_CREDENTIALS }}
+      #     JF_URL: ${{ secrets.JF_URL }}
+      #   run: >
+      #     curl
+      #     --write-out '%{http_code}' --silent --output /dev/null -f
+      #     -u$JF_CREDENTIALS
+      #     -T data/plugins_info.json
+      #     "$JF_URL"
 
       - name: Commit and push changes
         run: |
