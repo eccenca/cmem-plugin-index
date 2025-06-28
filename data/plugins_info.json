@@ -94,15 +94,15 @@
         "id": "cmem-plugin-pdf-extract",
         "name": "cmem-plugin-pdf-extract",
         "summary": "Extract text and tables from PDF documents.",
-        "latest_version": "0.5.0",
-        "latest_version_time": "2025-05-12T07:17:14"
+        "latest_version": "1.0.0",
+        "latest_version_time": "2025-06-11T10:05:50"
     },
     {
         "id": "cmem-plugin-pgvector",
         "name": "cmem-plugin-pgvector",
         "summary": "Store and search for embedding vectors in a Postgres vector store.",
-        "latest_version": "0.6.1",
-        "latest_version_time": "2025-05-06T14:22:52"
+        "latest_version": "0.6.2",
+        "latest_version_time": "2025-06-16T09:57:47"
     },
     {
         "id": "cmem-plugin-project-resources",
@@ -157,8 +157,8 @@
         "id": "cmem-plugin-ulid",
         "name": "cmem-plugin-ulid",
         "summary": "Create Universally Unique Lexicographically Sortable Identifiers (ULID) in transformations.",
-        "latest_version": "1.0.1",
-        "latest_version_time": "2023-10-19T18:33:40"
+        "latest_version": "1.1.0",
+        "latest_version_time": "2025-06-24T19:30:15"
     },
     {
         "id": "cmem-plugin-uuid",
