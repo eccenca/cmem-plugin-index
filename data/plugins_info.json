@@ -77,13 +77,6 @@
         "latest_version_time": "2025-05-28T10:23:25"
     },
     {
-        "id": "cmem-plugin-office365",
-        "name": "cmem-plugin-office365",
-        "summary": "Extract and process data from your Office365 instance.",
-        "latest_version": "1.1.0",
-        "latest_version_time": "2023-07-21T15:28:19"
-    },
-    {
         "id": "cmem-plugin-number-conversion",
         "name": "cmem-plugin-number-conversion",
         "summary": "Convert numbers between binary, octal, decimal and hexadecimal representation.",
