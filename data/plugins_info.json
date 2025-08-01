@@ -42,6 +42,13 @@
         "latest_version_time": "2025-05-20T19:07:06"
     },
     {
+        "id": "cmem-plugin-jq",
+        "name": "cmem-plugin-jq",
+        "summary": "Process data structures with the jq expression language.",
+        "latest_version": "0.6.0",
+        "latest_version_time": "2025-07-31T21:53:28"
+    },
+    {
         "id": "cmem-plugin-kafka",
         "name": "cmem-plugin-kafka",
         "summary": "Send and receive messages from Apache Kafka.",
@@ -108,8 +115,8 @@
         "id": "cmem-plugin-pgvector",
         "name": "cmem-plugin-pgvector",
         "summary": "Store and search for embedding vectors in a Postgres vector store.",
-        "latest_version": "0.6.3",
-        "latest_version_time": "2025-07-25T09:37:14"
+        "latest_version": "0.7.0",
+        "latest_version_time": "2025-07-31T17:39:55"
     },
     {
         "id": "cmem-plugin-project-resources",
