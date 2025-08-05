@@ -66,8 +66,8 @@
         "id": "cmem-plugin-loopwf",
         "name": "cmem-plugin-loopwf",
         "summary": "Loop over the output of a task and start a sub-workflow for each entity.",
-        "latest_version": "0.5.2",
-        "latest_version_time": "2025-05-14T18:25:07"
+        "latest_version": "0.6.0",
+        "latest_version_time": "2025-08-04T15:46:49"
     },
     {
         "id": "cmem-plugin-mattermost",
@@ -80,8 +80,8 @@
         "id": "cmem-plugin-nextcloud",
         "name": "cmem-plugin-nextcloud",
         "summary": "Extract and process data from your Nextcloud instance.",
-        "latest_version": "1.4.1",
-        "latest_version_time": "2025-07-22T07:10:23"
+        "latest_version": "1.4.2",
+        "latest_version_time": "2025-08-04T13:15:45"
     },
     {
         "id": "cmem-plugin-number-conversion",
@@ -94,8 +94,8 @@
         "id": "cmem-plugin-office365",
         "name": "cmem-plugin-office365",
         "summary": "Extract and process data from your Office365 instance.",
-        "latest_version": "1.1.1",
-        "latest_version_time": "2025-07-22T07:24:51"
+        "latest_version": "2.0.0",
+        "latest_version_time": "2025-08-04T08:52:29"
     },
     {
         "id": "cmem-plugin-parameters",
