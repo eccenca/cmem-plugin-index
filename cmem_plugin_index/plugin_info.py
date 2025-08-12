@@ -33,13 +33,11 @@ def get_package_names() -> list[str]:
     return plugin_list
 
 
-def get_package_names_with_prefix(prefix: str, ignore: list[str]) -> list[str]:
-    """Fetch list of package names from pypi.org"""
+def get_package_names_with_prefix(prefix: str) -> list[str]:
+    """Fetch the list of package names from pypi.org"""
     all_names = get_package_names()
-    plugin_list = [name for name in all_names if name.startswith(prefix) and name not in ignore]
-    loguru.logger.info(
-        f"Found {len(plugin_list)} packages with prefix '{prefix}' (ignoring {ignore!s})"
-    )
+    plugin_list = [name for name in all_names if name.startswith(prefix)]
+    loguru.logger.info(f"Found {len(plugin_list)} packages with prefix '{prefix}'")
     return plugin_list
 
 
@@ -72,7 +70,10 @@ def get_package_details(package_id: str) -> PackageDetails | None:
 def fetch_all_details(prefix: str, ignore: list[str]) -> list[dict]:
     """Fetch plugin details"""
     plugin_info_list = []
-    for package in get_package_names_with_prefix(prefix=prefix, ignore=ignore):
+    for package in get_package_names_with_prefix(prefix=prefix):
+        if package in ignore:
+            loguru.logger.warning(f"Package '{package}' ignored since in ignore list.")
+            continue
         package_info = get_package_details(package)
         if not package_info:
             loguru.logger.warning(f"No package info available for package '{package}'.")

@@ -80,8 +80,8 @@
         "id": "cmem-plugin-nextcloud",
         "name": "cmem-plugin-nextcloud",
         "summary": "Extract and process data from your Nextcloud instance.",
-        "latest_version": "1.4.2",
-        "latest_version_time": "2025-08-04T13:15:45"
+        "latest_version": "1.4.3",
+        "latest_version_time": "2025-08-12T10:50:43"
     },
     {
         "id": "cmem-plugin-number-conversion",
@@ -131,13 +131,6 @@
         "summary": "Validate your Knowledge Graphs based on tests generated from SHACL shapes.",
         "latest_version": "5.2.0",
         "latest_version_time": "2025-07-03T19:44:25"
-    },
-    {
-        "id": "cmem-plugin-python",
-        "name": "cmem-plugin-python",
-        "summary": "Write ad-hoc transformations and workflow tasks with Python.",
-        "latest_version": "1.2.0",
-        "latest_version_time": "2025-05-12T09:12:37"
     },
     {
         "id": "cmem-plugin-salesforce",

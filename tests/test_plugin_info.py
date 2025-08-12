@@ -40,7 +40,7 @@ def test_fetch_all_details() -> None:
 def test_cli(tmpdir: Path) -> None:
     """Test cli"""
     output = tmpdir / "output.json"
-    result = CliRunner(mix_stderr=False).invoke(cli, [str(output)])
+    result = CliRunner().invoke(cli, [str(output)])
     assert result.exit_code == 0
     json_output = json.loads(output.read_text(encoding="utf-8"))
     assert len(json_output) >= KNOWN_NR_OF_PLUGIN_PACKAGES
