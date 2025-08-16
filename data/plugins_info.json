@@ -164,8 +164,8 @@
         "id": "cmem-plugin-ssh",
         "name": "cmem-plugin-ssh",
         "summary": "Get files and process output via secure shell protocol.",
-        "latest_version": "1.0.0",
-        "latest_version_time": "2025-07-18T05:02:05"
+        "latest_version": "1.0.1",
+        "latest_version_time": "2025-08-15T12:59:33"
     },
     {
         "id": "cmem-plugin-ulid",
