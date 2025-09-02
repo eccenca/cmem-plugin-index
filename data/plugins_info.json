@@ -59,8 +59,8 @@
         "id": "cmem-plugin-kubernetes",
         "name": "cmem-plugin-kubernetes",
         "summary": "Start processes on pods on your kubernetes cluster.",
-        "latest_version": "0.5.0",
-        "latest_version_time": "2025-08-29T08:44:16"
+        "latest_version": "0.6.0",
+        "latest_version_time": "2025-09-01T14:55:18"
     },
     {
         "id": "cmem-plugin-llm",
