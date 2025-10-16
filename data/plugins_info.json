@@ -45,8 +45,8 @@
         "id": "cmem-plugin-jq",
         "name": "cmem-plugin-jq",
         "summary": "Process data structures with the jq expression language.",
-        "latest_version": "0.6.0",
-        "latest_version_time": "2025-07-31T21:53:28"
+        "latest_version": "0.7.0",
+        "latest_version_time": "2025-10-15T13:00:37"
     },
     {
         "id": "cmem-plugin-kafka",
@@ -73,8 +73,8 @@
         "id": "cmem-plugin-loopwf",
         "name": "cmem-plugin-loopwf",
         "summary": "Loop over the output of a task and start a sub-workflow for each entity.",
-        "latest_version": "0.8.0",
-        "latest_version_time": "2025-09-10T08:44:49"
+        "latest_version": "0.9.0",
+        "latest_version_time": "2025-10-15T14:28:40"
     },
     {
         "id": "cmem-plugin-mattermost",
@@ -122,8 +122,8 @@
         "id": "cmem-plugin-pgvector",
         "name": "cmem-plugin-pgvector",
         "summary": "Store and search for embedding vectors in a Postgres vector store.",
-        "latest_version": "0.7.1",
-        "latest_version_time": "2025-08-07T11:00:30"
+        "latest_version": "0.8.0",
+        "latest_version_time": "2025-10-15T09:27:05"
     },
     {
         "id": "cmem-plugin-project-resources",
@@ -192,14 +192,14 @@
         "id": "cmem-plugin-validation",
         "name": "cmem-plugin-validation",
         "summary": "Validate graph and data structures.",
-        "latest_version": "1.1.2",
-        "latest_version_time": "2024-12-24T20:20:03"
+        "latest_version": "1.2.0",
+        "latest_version_time": "2025-10-15T15:00:02"
     },
     {
         "id": "cmem-plugin-yaml",
         "name": "cmem-plugin-yaml",
         "summary": "Load and parse YAML documents.",
-        "latest_version": "0.8.0",
-        "latest_version_time": "2024-07-17T14:29:00"
+        "latest_version": "1.0.0",
+        "latest_version_time": "2025-10-15T12:14:39"
     }
 ]
