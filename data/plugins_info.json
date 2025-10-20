@@ -10,8 +10,8 @@
         "id": "cmem-plugin-csvcombine",
         "name": "cmem-plugin-csvcombine",
         "summary": "Combine CSV files with the same structure to one dataset.",
-        "latest_version": "3.1.0",
-        "latest_version_time": "2025-07-17T09:25:39"
+        "latest_version": "3.2.0",
+        "latest_version_time": "2025-10-19T20:23:10"
     },
     {
         "id": "cmem-plugin-currencies",
@@ -94,8 +94,8 @@
         "id": "cmem-plugin-number-conversion",
         "name": "cmem-plugin-number-conversion",
         "summary": "Convert numbers between binary, octal, decimal and hexadecimal representation.",
-        "latest_version": "0.6.0",
-        "latest_version_time": "2023-07-10T12:09:20"
+        "latest_version": "0.7.0",
+        "latest_version_time": "2025-10-19T20:39:18"
     },
     {
         "id": "cmem-plugin-office365",
