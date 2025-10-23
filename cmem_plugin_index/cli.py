@@ -17,6 +17,7 @@ IGNORED_PACKAGES = [
     "cmem-plugin-kaggle",  # no support / maintainer
     "cmem-plugin-reason",  # java dependency with critical vulnerabilities
     "cmem-plugin-sparql-anything",  # java dependency with critical vulnerabilities
+    "cmem-plugin-semspect", # deprecated
 ]
 
 
