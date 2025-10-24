@@ -147,13 +147,6 @@
         "latest_version_time": "2025-10-22T13:00:02"
     },
     {
-        "id": "cmem-plugin-semspect",
-        "name": "cmem-plugin-semspect",
-        "summary": "Update Knowledge Graphs for visualisation in derivo SemSpect RDF.",
-        "latest_version": "0.7.0",
-        "latest_version_time": "2024-07-31T07:34:13"
-    },
-    {
         "id": "cmem-plugin-shapes",
         "name": "cmem-plugin-shapes",
         "summary": "Generate SHACL shapes from an instance data graph.",
