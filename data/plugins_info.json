@@ -196,6 +196,13 @@
         "latest_version_time": "2025-10-15T15:00:02"
     },
     {
+        "id": "cmem-plugin-wfreports",
+        "name": "cmem-plugin-wfreports",
+        "summary": "Get workflow reports and status information.",
+        "latest_version": "0.5.1",
+        "latest_version_time": "2025-11-24T12:51:36"
+    },
+    {
         "id": "cmem-plugin-yaml",
         "name": "cmem-plugin-yaml",
         "summary": "Load and parse YAML documents.",
