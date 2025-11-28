@@ -199,8 +199,8 @@
         "id": "cmem-plugin-wfreports",
         "name": "cmem-plugin-wfreports",
         "summary": "Get workflow reports and status information.",
-        "latest_version": "0.5.1",
-        "latest_version_time": "2025-11-24T12:51:36"
+        "latest_version": "0.6.0",
+        "latest_version_time": "2025-11-27T10:38:23"
     },
     {
         "id": "cmem-plugin-yaml",
