@@ -143,15 +143,15 @@
         "id": "cmem-plugin-pyshacl",
         "name": "cmem-plugin-pyshacl",
         "summary": "Validate your Knowledge Graphs based on tests generated from SHACL shapes.",
-        "latest_version": "5.3.0",
-        "latest_version_time": "2025-10-20T09:30:43"
+        "latest_version": "5.3.1",
+        "latest_version_time": "2026-01-27T11:51:19"
     },
     {
         "id": "cmem-plugin-reason",
         "name": "cmem-plugin-reason",
         "summary": "Perform reasoning tasks and validate OWL consistency.",
-        "latest_version": "2.2.1",
-        "latest_version_time": "2025-11-27T16:28:39"
+        "latest_version": "2.2.2",
+        "latest_version_time": "2026-01-27T08:04:27"
     },
     {
         "id": "cmem-plugin-salesforce",
