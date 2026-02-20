@@ -122,8 +122,8 @@
         "id": "cmem-plugin-pdf-extract",
         "name": "cmem-plugin-pdf-extract",
         "summary": "Extract text and tables from PDF documents.",
-        "latest_version": "1.1.0",
-        "latest_version_time": "2025-10-20T12:57:03"
+        "latest_version": "1.1.1",
+        "latest_version_time": "2026-02-19T11:00:01"
     },
     {
         "id": "cmem-plugin-pgvector",
