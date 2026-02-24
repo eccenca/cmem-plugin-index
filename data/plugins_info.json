@@ -77,6 +77,13 @@
         "latest_version_time": "2025-11-07T09:02:25"
     },
     {
+        "id": "cmem-plugin-logpoint",
+        "name": "cmem-plugin-logpoint",
+        "summary": "Retrieve data from a Logpoint Security information and event management (SIEM) system.",
+        "latest_version": "0.6.0",
+        "latest_version_time": "2026-02-23T10:20:37"
+    },
+    {
         "id": "cmem-plugin-loopwf",
         "name": "cmem-plugin-loopwf",
         "summary": "Loop over the output of a task and start a sub-workflow for each entity.",
