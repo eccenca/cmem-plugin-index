@@ -59,8 +59,8 @@
         "id": "cmem-plugin-kafka",
         "name": "cmem-plugin-kafka",
         "summary": "Send and receive messages from Apache Kafka.",
-        "latest_version": "3.4.0",
-        "latest_version_time": "2025-10-20T12:50:36"
+        "latest_version": "3.4.1",
+        "latest_version_time": "2026-03-05T23:08:30"
     },
     {
         "id": "cmem-plugin-kubernetes",
