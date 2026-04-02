@@ -136,8 +136,8 @@
         "id": "cmem-plugin-pgvector",
         "name": "cmem-plugin-pgvector",
         "summary": "Store and search for embedding vectors in a Postgres vector store.",
-        "latest_version": "0.9.0",
-        "latest_version_time": "2025-10-22T07:46:50"
+        "latest_version": "0.10.0",
+        "latest_version_time": "2026-04-01T14:54:27"
     },
     {
         "id": "cmem-plugin-project-resources",
