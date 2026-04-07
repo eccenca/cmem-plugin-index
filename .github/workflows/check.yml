@@ -47,7 +47,7 @@ jobs:
 
       - name: Install dynamic versioning plugin
         run: |
-          poetry self add "poetry-dynamic-versioning[plugin]"
+          poetry self add "poetry-dynamic-versioning[plugin]" "rapidfuzz==3.14.3"
 
       - name: mypy
         run: |
