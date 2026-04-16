@@ -154,6 +154,13 @@
         "latest_version_time": "2026-01-27T11:51:19"
     },
     {
+        "id": "cmem-plugin-random",
+        "name": "cmem-plugin-random",
+        "summary": "Select random samples and generate random values.",
+        "latest_version": "0.6.0",
+        "latest_version_time": "2026-04-15T08:19:22"
+    },
+    {
         "id": "cmem-plugin-reason",
         "name": "cmem-plugin-reason",
         "summary": "Perform reasoning tasks and validate OWL consistency.",
