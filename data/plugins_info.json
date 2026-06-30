@@ -164,8 +164,8 @@
         "id": "cmem-plugin-reason",
         "name": "cmem-plugin-reason",
         "summary": "Perform reasoning tasks and validate OWL consistency.",
-        "latest_version": "2.2.5",
-        "latest_version_time": "2026-03-01T12:57:18"
+        "latest_version": "2.2.6",
+        "latest_version_time": "2026-06-29T18:48:11"
     },
     {
         "id": "cmem-plugin-salesforce",
