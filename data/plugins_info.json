@@ -21,6 +21,13 @@
         "latest_version_time": "2025-10-20T09:53:58"
     },
     {
+        "id": "cmem-plugin-email",
+        "name": "cmem-plugin-email",
+        "summary": "Search and extract email metadata via IMAP for use in CMEM workflows.",
+        "latest_version": "1.0.0",
+        "latest_version_time": "2026-07-03T12:59:35"
+    },
+    {
         "id": "cmem-plugin-graph-insights",
         "name": "cmem-plugin-graph-insights",
         "summary": "Update your Graphinsights snapshots within corporate memory.",
