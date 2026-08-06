@@ -38,8 +38,8 @@
         "id": "cmem-plugin-graphql",
         "name": "cmem-plugin-graphql",
         "summary": "Send queries to a GraphQL endpoint and save the results in a JSON dataset.",
-        "latest_version": "5.0.0",
-        "latest_version_time": "2025-10-16T05:59:16"
+        "latest_version": "5.1.0",
+        "latest_version_time": "2026-08-05T07:15:23"
     },
     {
         "id": "cmem-plugin-irdi",
@@ -59,8 +59,8 @@
         "id": "cmem-plugin-jq",
         "name": "cmem-plugin-jq",
         "summary": "Process data structures with the jq expression language.",
-        "latest_version": "0.7.0",
-        "latest_version_time": "2025-10-15T13:00:37"
+        "latest_version": "0.8.0",
+        "latest_version_time": "2026-08-05T09:27:03"
     },
     {
         "id": "cmem-plugin-kafka",
@@ -80,8 +80,8 @@
         "id": "cmem-plugin-llm",
         "name": "cmem-plugin-llm",
         "summary": "Interact with Large Language Models (Execute Instructions, Create Embeddings).",
-        "latest_version": "2.4.0",
-        "latest_version_time": "2026-06-10T06:31:13"
+        "latest_version": "2.5.0",
+        "latest_version_time": "2026-08-05T12:51:01"
     },
     {
         "id": "cmem-plugin-logpoint",
@@ -108,8 +108,8 @@
         "id": "cmem-plugin-nextcloud",
         "name": "cmem-plugin-nextcloud",
         "summary": "Extract and process data from your Nextcloud instance.",
-        "latest_version": "1.5.0",
-        "latest_version_time": "2025-10-22T06:38:02"
+        "latest_version": "1.6.0",
+        "latest_version_time": "2026-08-05T12:27:48"
     },
     {
         "id": "cmem-plugin-number-conversion",
@@ -164,8 +164,8 @@
         "id": "cmem-plugin-random",
         "name": "cmem-plugin-random",
         "summary": "Select random samples and generate random values.",
-        "latest_version": "0.6.0",
-        "latest_version_time": "2026-04-15T08:19:22"
+        "latest_version": "0.7.0",
+        "latest_version_time": "2026-08-05T10:35:14"
     },
     {
         "id": "cmem-plugin-reason",
@@ -178,8 +178,8 @@
         "id": "cmem-plugin-salesforce",
         "name": "cmem-plugin-salesforce",
         "summary": "Send or receive data from your organization\u00b4s Salesforce account.",
-        "latest_version": "2.1.1",
-        "latest_version_time": "2025-12-09T08:04:24"
+        "latest_version": "2.2.0",
+        "latest_version_time": "2026-08-05T11:50:57"
     },
     {
         "id": "cmem-plugin-shapes",
@@ -234,7 +234,7 @@
         "id": "cmem-plugin-yaml",
         "name": "cmem-plugin-yaml",
         "summary": "Load and parse YAML documents.",
-        "latest_version": "1.0.1",
-        "latest_version_time": "2025-12-09T08:19:37"
+        "latest_version": "1.1.0",
+        "latest_version_time": "2026-08-05T14:02:24"
     }
 ]
