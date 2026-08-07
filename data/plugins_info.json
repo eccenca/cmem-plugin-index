@@ -87,8 +87,8 @@
         "id": "cmem-plugin-logpoint",
         "name": "cmem-plugin-logpoint",
         "summary": "Retrieve data from a Logpoint Security information and event management (SIEM) system.",
-        "latest_version": "0.6.0",
-        "latest_version_time": "2026-02-23T10:20:37"
+        "latest_version": "0.7.0",
+        "latest_version_time": "2026-08-06T05:53:20"
     },
     {
         "id": "cmem-plugin-loopwf",
