@@ -157,15 +157,15 @@
         "id": "cmem-plugin-project-resources",
         "name": "cmem-plugin-project-resources",
         "summary": "List and upload project resources.",
-        "latest_version": "0.7.0",
-        "latest_version_time": "2025-10-22T07:35:40"
+        "latest_version": "0.8.0",
+        "latest_version_time": "2026-08-14T12:46:56"
     },
     {
         "id": "cmem-plugin-pyshacl",
         "name": "cmem-plugin-pyshacl",
         "summary": "Validate your Knowledge Graphs based on tests generated from SHACL shapes.",
-        "latest_version": "5.3.1",
-        "latest_version_time": "2026-01-27T11:51:19"
+        "latest_version": "5.4.0",
+        "latest_version_time": "2026-08-14T18:29:06"
     },
     {
         "id": "cmem-plugin-random",
@@ -234,8 +234,8 @@
         "id": "cmem-plugin-wfreports",
         "name": "cmem-plugin-wfreports",
         "summary": "Get workflow reports and status information.",
-        "latest_version": "0.6.0",
-        "latest_version_time": "2025-11-27T10:38:23"
+        "latest_version": "0.7.0",
+        "latest_version_time": "2026-08-14T13:59:05"
     },
     {
         "id": "cmem-plugin-yaml",
