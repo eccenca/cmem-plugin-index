@@ -101,8 +101,8 @@
         "id": "cmem-plugin-mattermost",
         "name": "cmem-plugin-mattermost",
         "summary": "Send messages to Mattermost channels and users.",
-        "latest_version": "2.3.0",
-        "latest_version_time": "2025-10-20T14:25:58"
+        "latest_version": "2.4.0",
+        "latest_version_time": "2026-08-17T07:27:30"
     },
     {
         "id": "cmem-plugin-nextcloud",
@@ -178,8 +178,8 @@
         "id": "cmem-plugin-reason",
         "name": "cmem-plugin-reason",
         "summary": "Perform reasoning tasks and validate OWL consistency.",
-        "latest_version": "2.2.7",
-        "latest_version_time": "2026-07-22T07:54:11"
+        "latest_version": "2.3.0",
+        "latest_version_time": "2026-08-17T10:59:12"
     },
     {
         "id": "cmem-plugin-salesforce",
@@ -199,8 +199,8 @@
         "id": "cmem-plugin-splitfile",
         "name": "cmem-plugin-splitfile",
         "summary": "Split a text file into parts of the same filesize",
-        "latest_version": "1.1.0",
-        "latest_version_time": "2025-10-20T13:14:19"
+        "latest_version": "1.2.0",
+        "latest_version_time": "2026-08-17T11:21:17"
     },
     {
         "id": "cmem-plugin-ssh",
