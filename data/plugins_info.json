@@ -10,8 +10,8 @@
         "id": "cmem-plugin-csvcombine",
         "name": "cmem-plugin-csvcombine",
         "summary": "Combine CSV files with the same structure to one dataset.",
-        "latest_version": "3.3.0",
-        "latest_version_time": "2026-08-04T11:46:07"
+        "latest_version": "3.3.1",
+        "latest_version_time": "2026-08-19T08:58:33"
     },
     {
         "id": "cmem-plugin-currencies",
@@ -45,8 +45,8 @@
         "id": "cmem-plugin-irdi",
         "name": "cmem-plugin-irdi",
         "summary": "Create unique International Registration Data Identifier (IRDI).",
-        "latest_version": "0.9.0",
-        "latest_version_time": "2026-08-12T14:10:38"
+        "latest_version": "0.9.1",
+        "latest_version_time": "2026-08-19T09:24:34"
     },
     {
         "id": "cmem-plugin-jira",
@@ -80,8 +80,8 @@
         "id": "cmem-plugin-llm",
         "name": "cmem-plugin-llm",
         "summary": "Interact with Large Language Models (Execute Instructions, Create Embeddings).",
-        "latest_version": "2.5.0",
-        "latest_version_time": "2026-08-05T12:51:01"
+        "latest_version": "2.5.1",
+        "latest_version_time": "2026-08-19T08:51:50"
     },
     {
         "id": "cmem-plugin-logpoint",
@@ -143,8 +143,8 @@
         "id": "cmem-plugin-pdf-extract",
         "name": "cmem-plugin-pdf-extract",
         "summary": "Extract text and tables from PDF documents.",
-        "latest_version": "2.1.0",
-        "latest_version_time": "2026-08-04T09:06:19"
+        "latest_version": "2.1.1",
+        "latest_version_time": "2026-08-19T08:43:46"
     },
     {
         "id": "cmem-plugin-pgvector",
@@ -227,8 +227,8 @@
         "id": "cmem-plugin-validation",
         "name": "cmem-plugin-validation",
         "summary": "Validate graph and data structures.",
-        "latest_version": "1.2.0",
-        "latest_version_time": "2025-10-15T15:00:02"
+        "latest_version": "1.3.0",
+        "latest_version_time": "2026-08-19T13:43:30"
     },
     {
         "id": "cmem-plugin-wfreports",
@@ -241,7 +241,7 @@
         "id": "cmem-plugin-yaml",
         "name": "cmem-plugin-yaml",
         "summary": "Load and parse YAML documents.",
-        "latest_version": "1.1.0",
-        "latest_version_time": "2026-08-05T14:02:24"
+        "latest_version": "1.1.1",
+        "latest_version_time": "2026-08-19T09:13:28"
     }
 ]
