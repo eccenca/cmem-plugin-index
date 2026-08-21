@@ -192,8 +192,8 @@
         "id": "cmem-plugin-shapes",
         "name": "cmem-plugin-shapes",
         "summary": "Generate SHACL shapes from an instance data graph.",
-        "latest_version": "4.3.0",
-        "latest_version_time": "2025-12-09T08:28:17"
+        "latest_version": "4.4.0",
+        "latest_version_time": "2026-08-20T07:02:56"
     },
     {
         "id": "cmem-plugin-splitfile",
