@@ -66,8 +66,8 @@
         "id": "cmem-plugin-kafka",
         "name": "cmem-plugin-kafka",
         "summary": "Send and receive messages from Apache Kafka.",
-        "latest_version": "3.4.2",
-        "latest_version_time": "2026-05-13T11:24:44"
+        "latest_version": "3.5.0",
+        "latest_version_time": "2026-08-24T22:54:29"
     },
     {
         "id": "cmem-plugin-kubernetes",
@@ -94,8 +94,8 @@
         "id": "cmem-plugin-loopwf",
         "name": "cmem-plugin-loopwf",
         "summary": "Loop over the output of a task and start a sub-workflow for each entity.",
-        "latest_version": "0.9.0",
-        "latest_version_time": "2025-10-15T14:28:40"
+        "latest_version": "0.10.0",
+        "latest_version_time": "2026-08-24T16:54:22"
     },
     {
         "id": "cmem-plugin-mattermost",
@@ -129,8 +129,8 @@
         "id": "cmem-plugin-packages",
         "name": "cmem-plugin-packages",
         "summary": "Build, publish, install and uninstall eccenca Marketplace packages.",
-        "latest_version": "1.0.0",
-        "latest_version_time": "2026-08-22T18:35:56"
+        "latest_version": "1.0.1",
+        "latest_version_time": "2026-08-24T11:55:50"
     },
     {
         "id": "cmem-plugin-parameters",
