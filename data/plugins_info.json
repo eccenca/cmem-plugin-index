@@ -1,5 +1,12 @@
 [
     {
+        "id": "cmem-plugin-apify",
+        "name": "cmem-plugin-apify",
+        "summary": "Connect to apify and get data.",
+        "latest_version": "1.0.0",
+        "latest_version_time": "2026-08-24T14:56:16"
+    },
+    {
         "id": "cmem-plugin-auth",
         "name": "cmem-plugin-auth",
         "summary": "Authenticate to services and provide the OAuth2 access token for other tasks.",
@@ -164,8 +171,8 @@
         "id": "cmem-plugin-pyshacl",
         "name": "cmem-plugin-pyshacl",
         "summary": "Validate your Knowledge Graphs based on tests generated from SHACL shapes.",
-        "latest_version": "5.4.0",
-        "latest_version_time": "2026-08-14T18:29:06"
+        "latest_version": "5.4.1",
+        "latest_version_time": "2026-08-25T09:23:47"
     },
     {
         "id": "cmem-plugin-random",
