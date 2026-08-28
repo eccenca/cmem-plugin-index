@@ -37,9 +37,9 @@
     {
         "id": "cmem-plugin-graph-insights",
         "name": "cmem-plugin-graph-insights",
-        "summary": "Update Graph Insights Snapshots.",
-        "latest_version": "0.6.0",
-        "latest_version_time": "2026-08-04T12:36:56"
+        "summary": "Create or Update Graph Insights Snapshots.",
+        "latest_version": "0.7.0",
+        "latest_version_time": "2026-08-27T08:35:50"
     },
     {
         "id": "cmem-plugin-graphql",
