@@ -80,8 +80,8 @@
         "id": "cmem-plugin-jq",
         "name": "cmem-plugin-jq",
         "summary": "Process data structures with the jq expression language.",
-        "latest_version": "0.8.0",
-        "latest_version_time": "2026-08-05T09:27:03"
+        "latest_version": "0.8.1",
+        "latest_version_time": "2026-09-04T06:17:37"
     },
     {
         "id": "cmem-plugin-kafka",
