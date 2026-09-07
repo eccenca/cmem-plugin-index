@@ -46,5 +46,5 @@ def cli(output_file: str, prefix: str, ignore: list[str]) -> None:
     plugin_info_list = fetch_all_details(prefix=prefix, ignore=ignore)
 
     # Save the plugin information to a JSON file in the 'data' folder
-    output.write_text(json.dumps(plugin_info_list, indent=4))
+    output.write_text(json.dumps(plugin_info_list, indent=4, ensure_ascii=False), encoding="utf-8")
     loguru.logger.info(f"Data saved to {output}")

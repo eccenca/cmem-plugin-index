@@ -1,0 +1,87 @@
+---
+name: release
+description: Cut a release of this project - check the changelog, rename the Unreleased heading, commit, tag vX.Y.Z and push. Use when asked to release, tag, version or publish this project.
+---
+
+# Releasing cmem-plugin-index
+
+The version is never written into a file. `poetry-dynamic-versioning` derives
+it from the git tag, so **the annotated tag is the release**. `pyproject.toml`
+keeps `version = "0.0.0"` forever; changing it there does nothing.
+
+Nothing is published automatically. This project has no publish workflow, so
+the tag and the changelog entry it points at *are* the release, and users
+install the package from the source they already use. If it should be published
+to PyPI, set `pypi` in `.copier-answers.yml` and run `copier update` - that
+generates the workflow - rather than publishing by hand from a laptop.
+
+Accepts an optional version argument, e.g. `/release 1.4.0`. Without one,
+derive it in step 2 and confirm with the user before tagging.
+
+## 1. Preflight
+
+Stop at the first failure and report it rather than fixing it silently.
+
+1. **Clean tree.** `git status --porcelain` is empty.
+2. **In sync.** `git fetch`, and the current branch is not behind its remote.
+3. **Checks pass.** `task check` is green. This is the state being released.
+4. **Changelog is ready.** `CHANGELOG.md` has a `## [Unreleased]` heading
+   followed by at least one `### Added|Changed|Deprecated|Removed|Fixed|Security`
+   section with at least one bullet.
+
+   Then confirm it is complete, by listing what changed since the last tag:
+
+   ```bash
+   git log --oneline "$(git describe --tags --abbrev=0)"..HEAD
+   ```
+
+   Anything a user would notice needs an entry. If something is missing, add it
+   before releasing rather than after.
+
+## 2. Derive the version
+
+Read the previous version from `git describe --tags --abbrev=0` and the nature
+of the change from the `## [Unreleased]` section, following
+[Semantic Versioning](https://semver.org/):
+
+- `### Removed` entries, or a change that breaks existing workflows or
+  configured parameters, mean a **major** bump.
+- `### Added` entries mean a **minor** bump.
+- Only `### Fixed`, `### Changed` or `### Security` entries mean a **patch**
+  bump.
+
+For a plugin, weigh compatibility from the user's point of view: renaming a
+parameter, removing a port or changing a default all break configured tasks in
+a live deployment, however small the diff looks.
+
+State the derived version and the reason, and let the user confirm.
+
+## 3. Release commit
+
+Rename the heading in `CHANGELOG.md`, keeping the bullets untouched:
+
+```markdown
+## [1.4.0] 2026-08-21
+```
+
+Use today's date in `YYYY-MM-DD`. Do not add a new empty `## [Unreleased]`
+section in the same commit - the next change adds it back.
+
+Commit exactly that change, with the version as the subject:
+
+```bash
+git commit -m "release 1.4.0" CHANGELOG.md
+```
+
+## 4. Tag and push
+
+The tag is annotated and named `vX.Y.Z`. Sign it if the user's git is
+configured for signing (`git config user.signingkey`):
+
+```bash
+git tag -a -m "release 1.4.0" v1.4.0
+git push && git push --tags
+```
+
+Then confirm the tag is on https://github.com/eccenca/cmem-plugin-index and that the check workflow is
+green for it.
