@@ -122,8 +122,8 @@
         "id": "cmem-plugin-mattermost",
         "name": "cmem-plugin-mattermost",
         "summary": "Send messages to Mattermost channels and users.",
-        "latest_version": "2.4.0",
-        "latest_version_time": "2026-08-17T07:27:30"
+        "latest_version": "2.5.0",
+        "latest_version_time": "2026-09-06T09:37:46"
     },
     {
         "id": "cmem-plugin-nextcloud",
@@ -227,8 +227,8 @@
         "id": "cmem-plugin-ssh",
         "name": "cmem-plugin-ssh",
         "summary": "Get files and process output via secure shell protocol.",
-        "latest_version": "2.0.0",
-        "latest_version_time": "2026-08-11T07:44:57"
+        "latest_version": "2.0.1",
+        "latest_version_time": "2026-09-06T14:08:38"
     },
     {
         "id": "cmem-plugin-ulid",
@@ -262,7 +262,7 @@
         "id": "cmem-plugin-yaml",
         "name": "cmem-plugin-yaml",
         "summary": "Load and parse YAML documents.",
-        "latest_version": "1.1.1",
-        "latest_version_time": "2026-08-19T09:13:28"
+        "latest_version": "2.0.0",
+        "latest_version_time": "2026-09-06T20:12:37"
     }
 ]
