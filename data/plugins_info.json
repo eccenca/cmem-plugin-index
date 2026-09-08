@@ -205,7 +205,7 @@
     {
         "id": "cmem-plugin-salesforce",
         "name": "cmem-plugin-salesforce",
-        "summary": "Send or receive data from your organization\u00b4s Salesforce account.",
+        "summary": "Send or receive data from your organization´s Salesforce account.",
         "latest_version": "2.2.0",
         "latest_version_time": "2026-08-05T11:50:57"
     },
