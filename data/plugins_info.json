@@ -3,8 +3,8 @@
         "id": "cmem-plugin-apify",
         "name": "cmem-plugin-apify",
         "summary": "Connect to apify and get data.",
-        "latest_version": "1.0.0",
-        "latest_version_time": "2026-08-24T14:56:16"
+        "latest_version": "1.0.1",
+        "latest_version_time": "2026-09-09T05:59:29"
     },
     {
         "id": "cmem-plugin-auth",
@@ -73,8 +73,8 @@
         "id": "cmem-plugin-jira",
         "name": "cmem-plugin-jira",
         "summary": "Query and extract data from Jira with JQL.",
-        "latest_version": "0.8.0",
-        "latest_version_time": "2026-08-07T06:36:30"
+        "latest_version": "0.8.1",
+        "latest_version_time": "2026-09-09T06:12:09"
     },
     {
         "id": "cmem-plugin-jq",
@@ -171,8 +171,8 @@
         "id": "cmem-plugin-pgvector",
         "name": "cmem-plugin-pgvector",
         "summary": "Store and search for embedding vectors in a Postgres vector store.",
-        "latest_version": "0.11.0",
-        "latest_version_time": "2026-08-10T06:30:13"
+        "latest_version": "0.12.0",
+        "latest_version_time": "2026-09-09T06:06:16"
     },
     {
         "id": "cmem-plugin-project-resources",
@@ -206,8 +206,8 @@
         "id": "cmem-plugin-salesforce",
         "name": "cmem-plugin-salesforce",
         "summary": "Send or receive data from your organization´s Salesforce account.",
-        "latest_version": "2.2.0",
-        "latest_version_time": "2026-08-05T11:50:57"
+        "latest_version": "2.2.1",
+        "latest_version_time": "2026-09-09T05:46:12"
     },
     {
         "id": "cmem-plugin-shapes",
@@ -255,8 +255,8 @@
         "id": "cmem-plugin-wfreports",
         "name": "cmem-plugin-wfreports",
         "summary": "Get workflow reports and status information.",
-        "latest_version": "0.7.0",
-        "latest_version_time": "2026-08-14T13:59:05"
+        "latest_version": "0.7.1",
+        "latest_version_time": "2026-09-09T06:25:54"
     },
     {
         "id": "cmem-plugin-yaml",
