@@ -58,9 +58,16 @@
     {
         "id": "cmem-plugin-graphql",
         "name": "cmem-plugin-graphql",
-        "summary": "Send queries to a GraphQL endpoint and save the results in a JSON dataset.",
-        "latest_version": "6.0.1",
-        "latest_version_time": "2026-09-08T11:33:19"
+        "summary": "Send queries to a GraphQL endpoint and process the results in a workflow.",
+        "latest_version": "7.0.0",
+        "latest_version_time": "2026-09-16T08:42:49"
+    },
+    {
+        "id": "cmem-plugin-hetzner",
+        "name": "cmem-plugin-hetzner",
+        "summary": "A Corporate Memory plugin to interact with the Hetzner API.",
+        "latest_version": "0.6.0",
+        "latest_version_time": "2026-09-16T18:50:34"
     },
     {
         "id": "cmem-plugin-irdi",
@@ -96,6 +103,13 @@
         "summary": "Start processes on pods on your kubernetes cluster.",
         "latest_version": "0.10.0",
         "latest_version_time": "2026-08-04T12:38:48"
+    },
+    {
+        "id": "cmem-plugin-ldap",
+        "name": "cmem-plugin-ldap",
+        "summary": "Query LDAP directory services such as OpenLDAP or Active Directory.",
+        "latest_version": "0.5.0",
+        "latest_version_time": "2026-09-16T14:16:42"
     },
     {
         "id": "cmem-plugin-llm",
