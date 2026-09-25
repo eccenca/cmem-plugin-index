@@ -115,8 +115,8 @@
         "id": "cmem-plugin-llm",
         "name": "cmem-plugin-llm",
         "summary": "Interact with Large Language Models (Execute Instructions, Create Embeddings).",
-        "latest_version": "2.5.1",
-        "latest_version_time": "2026-08-19T08:51:50"
+        "latest_version": "2.5.2",
+        "latest_version_time": "2026-09-24T05:59:50"
     },
     {
         "id": "cmem-plugin-logpoint",
