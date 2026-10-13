@@ -147,6 +147,13 @@
         "latest_version_time": "2026-08-05T12:27:48"
     },
     {
+        "id": "cmem-plugin-ntfy",
+        "name": "cmem-plugin-ntfy",
+        "summary": "Send and receive push notifications and attachments with ntfy.",
+        "latest_version": "1.1.0",
+        "latest_version_time": "2026-10-12T23:20:12"
+    },
+    {
         "id": "cmem-plugin-number-conversion",
         "name": "cmem-plugin-number-conversion",
         "summary": "Convert numbers between binary, octal, decimal and hexadecimal representation.",
