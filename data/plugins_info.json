@@ -224,6 +224,13 @@
         "latest_version_time": "2026-10-14T06:27:32"
     },
     {
+        "id": "cmem-plugin-s3",
+        "name": "cmem-plugin-s3",
+        "summary": "List, download and upload files in S3 and S3-compatible object storage.",
+        "latest_version": "1.0.0",
+        "latest_version_time": "2026-10-14T11:13:36"
+    },
+    {
         "id": "cmem-plugin-salesforce",
         "name": "cmem-plugin-salesforce",
         "summary": "Send or receive data from your organization´s Salesforce account.",
