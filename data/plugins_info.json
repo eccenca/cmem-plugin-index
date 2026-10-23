@@ -42,13 +42,6 @@
         "latest_version_time": "2026-07-03T12:59:35"
     },
     {
-        "id": "cmem-plugin-git",
-        "name": "cmem-plugin-git",
-        "summary": "Pull and push files from a git Repository.",
-        "latest_version": "1.0.0",
-        "latest_version_time": "2026-09-02T11:49:04"
-    },
-    {
         "id": "cmem-plugin-graph-insights",
         "name": "cmem-plugin-graph-insights",
         "summary": "Create or Update Graph Insights Snapshots.",
